@@ -1,0 +1,7 @@
+require("game/shaders/wall_shadows")
+require("game/shaders/color_replacer")
+require("game/shaders/gaussian_blur")
+require("game/shaders/tree_shader")
+require("game/shaders/bloom")
+require("game/shaders/building_shadow_shader")
+require("game/shaders/outline")

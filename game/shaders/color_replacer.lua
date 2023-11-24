@@ -1,0 +1,1 @@
+shaders.colorReplacer = love.graphics.newShader("\textern vec4 replacement;\n\t\n\t#ifdef PIXEL\n\t\tvec4 effect(vec4 color, Image canvas, vec2 textureCoords, vec2 pixelCoordinates)\n\t\t{\n\t\t\tvec4 original = Texel(canvas, textureCoords);\n\t\t\t\n\t\t\treturn vec4(replacement.r, replacement.g, replacement.b, original.a);\n\t\t}\n\t#endif\n")

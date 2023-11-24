@@ -1,0 +1,8 @@
+require("game/dialogue/story_mode/getting_started")
+require("game/dialogue/story_mode/vroom_vroom")
+require("game/dialogue/story_mode/the_journey")
+require("game/dialogue/story_mode/on_my_own")
+require("game/dialogue/story_mode/climbing_the_ladder")
+require("game/dialogue/story_mode/a_formidable_reputation")
+require("game/dialogue/story_mode/first_contact")
+require("game/dialogue/story_mode/an_eye_for_an_eye")

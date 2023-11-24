@@ -1,0 +1,1 @@
+shaders.buildingShadowHeight = love.graphics.newShader("\t\n\textern float height;\n\t\n\t#ifdef PIXEL\n\t\tvec4 effect(vec4 color, Image canvas, vec2 textureCoords, vec2 pixelCoordinates)\n\t\t{\n\t\t\tvec4 original = Texel(canvas, textureCoords);\n\t\t\t\n\t\t\treturn vec4(original.r, original.g, height, original.a);\n\t\t}\n\t#endif\n")
